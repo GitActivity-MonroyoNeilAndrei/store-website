@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <product_id>1659438713</product_id>
+    <product_name>1</product_name>
+    <product_date>Aug/02/2022</product_date>
+  </product>
+  <product>
+    <product_id>1659438717</product_id>
+    <product_name>2</product_name>
+    <product_date>Aug/02/2022</product_date>
+  </product>
+  <product>
+    <product_id>1659438896</product_id>
+    <product_name>3</product_name>
+    <product_date>Aug/02/2022</product_date>
+  </product>
+</products>

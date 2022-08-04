@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* This is the Header section  */
+body {
+    padding: 20px 10px; 
+    background-color: rgb(0, 165, 165);
+    min-height: 100vh;
+}
+
+.header {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.header-name {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+div.header-name h2, label {
+    color: white;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input.product-input {
+    background-color: rgb(0, 49, 58);
+    color: white;
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+    border: 3px solid cyan;
+    box-shadow: 5px 5px 10px rgb(34, 34, 34);
+    border-radius: 50px;
+    position: relative;
+    left: 3%;
+}
+
+input.product-input[type="text"]{
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+input.product-input::placeholder {
+    font-size: 15px;
+}
+
+a i {
+    position: relative;
+    right: 9%;
+}
+
+div.search-image {
+    height: 14px;
+    width: 14px;
+}
+
+div.search-image img {
+    height: 100%;
+    width: 100%;
+}
+
+/* This is the Body Section  */
+.body {
+    padding: 1rem;
+}
+
+ol {
+    list-style: none;
+}
+
+div.div-body {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+}
+
+@media (max-width: 900px) {
+    div.div-body {
+        grid-template-columns: repeat(2,1fr);
+    }
+    div.products-container {
+        justify-content: center;
+    }
+    div.div-body {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    div.div-body {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+    div.prouducts-container {
+        justify-content: center;
+    }
+    div.div-body {
+        border: 1px solid red;
+        padding: 0 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+div.products-container {
+    background-image: linear-gradient(to right, rgb(0, 209, 209), rgb(0, 89, 255));
+    box-shadow: 5px 5px 20px rgb(34, 34, 34);
+    border-radius: 8px;
+    /* flex properties */
+    display: flex;
+}
+
+div.products-container:hover {
+    position: relative;
+    bottom: 5px;
+}
+
+div.images {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+div.images img {
+    height: 100%;
+    width: 100%
+}
+
+div.product-detail {
+    padding: 20px 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
